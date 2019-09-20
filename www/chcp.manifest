@@ -113,7 +113,7 @@
   },
   {
     "file": "build/main.js",
-    "hash": "b64f1e5912ccd18e73dba15cb1ca330d"
+    "hash": "9d57d52a28fefaf07c4d06dab4dd5672"
   },
   {
     "file": "build/main.js.map",
@@ -133,7 +133,7 @@
   },
   {
     "file": "build/vendor.js.map",
-    "hash": "62e8d94f9af35265a709fd535ac35251"
+    "hash": "806f8c0ab7bc510f63d1e5c4e53b4e96"
   },
   {
     "file": "index.html",

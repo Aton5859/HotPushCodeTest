@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="mr.kang.hotpushtest" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MyApp</name>
+<widget id="mr.kang.hotpushtest" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HotPushCodeTest</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -12,8 +12,10 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <chcp>
-        <config-file url="https://github.com/Aton5859/HotPushCodeTest/blob/master/www/chcp.json" />
-        <native-interface version="1" />
+        <config-file url="http://192.168.43.102:8001/chcp.json" />
+        <auto-download enabled="true" />
+        <auto-install enabled="true" />
+        <native-interface version="2" />
     </chcp>
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="16" />
